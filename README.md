@@ -115,7 +115,7 @@ Instale as dependências
 - npm install
 ---
 Execute o projeto
-npx expo start
+- npx expo start
 ---
 
 
