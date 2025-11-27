@@ -119,6 +119,3 @@ Execute o projeto
 ---
 Link youtube: https://youtu.be/zcPwscGoN8M
 
-
-
-Lin
