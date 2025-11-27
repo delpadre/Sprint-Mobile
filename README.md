@@ -6,14 +6,13 @@ A ideia é incentivar o bem-estar físico e mental de forma divertida, recompens
 ---
 
 ## 👥 Integrantes do Grupo
-- João Silva — RM: 12345  
-- Maria Oliveira — RM: 67890  
-- Pedro Santos — RM: 11223  
-- Ana Costa — RM: 44556  
-- Rafael Almeida — RM: 77889  
+- Lucas bertolassi iori - RM553183
+- Giovanna Franco - RM553701
+- Rafael Almeida - RM554019
+- Rafael Jorge Del Padre - Rm552765
 
 ---
-##Objetivo
+Objetivo
 
 Promover hábitos saudáveis de forma divertida e interativa, transformando o bem-estar em uma jornada épica de RPG.
 ---
