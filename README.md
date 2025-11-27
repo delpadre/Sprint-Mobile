@@ -112,7 +112,7 @@ VidaHeroicaApp/
    git clone https://github.com/seu-repositorio/duohealth.git
 ---
 Instale as dependências 
-npm install
+- npm install
 ---
 Execute o projeto
 npx expo start
