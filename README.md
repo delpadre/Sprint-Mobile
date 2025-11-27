@@ -117,5 +117,8 @@ Instale as dependências
 Execute o projeto
 - npx expo start
 ---
+Link youtube: https://youtu.be/zcPwscGoN8M
 
 
+
+Lin
