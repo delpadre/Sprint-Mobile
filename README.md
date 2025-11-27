@@ -13,6 +13,10 @@ A ideia é incentivar o bem-estar físico e mental de forma divertida, recompens
 - Rafael Almeida — RM: 77889  
 
 ---
+##Objetivo
+
+Promover hábitos saudáveis de forma divertida e interativa, transformando o bem-estar em uma jornada épica de RPG.
+---
 
 ## 🚀 Funcionalidades do Aplicativo
 
@@ -115,5 +119,4 @@ Execute o projeto
 npx expo start
 ---
 
-Objetivo
-Promover hábitos saudáveis de forma divertida e interativa, transformando o bem-estar em uma jornada épica de RPG.
+
