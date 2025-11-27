@@ -1,50 +1,119 @@
-# Welcome to your Expo app 👋
+# 📱 DuoHealth - RPG de Bem-Estar
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+O **DuoHealth** é um aplicativo gamificado que transforma hábitos saudáveis em missões de RPG.  
+A ideia é incentivar o bem-estar físico e mental de forma divertida, recompensando o usuário com XP e conquistas ao completar desafios diários.
 
-## Get started
+---
 
-1. Install dependencies
+## 👥 Integrantes do Grupo
+- João Silva — RM: 12345  
+- Maria Oliveira — RM: 67890  
+- Pedro Santos — RM: 11223  
+- Ana Costa — RM: 44556  
+- Rafael Almeida — RM: 77889  
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 🚀 Funcionalidades do Aplicativo
 
-   ```bash
-   npx expo start
-   ```
+### 🔑 Autenticação
+- Tela de **Login** com credenciais de teste (`teste@email.com / 123456`).
+- Redirecionamento para a área principal após login bem-sucedido.
 
-In the output, you'll find options to open the app in a
+### 🏠 Tela Inicial (Dashboard)
+- Exibe **status do herói**: Vitalidade, Clareza, Harmonia.
+- Mostra **nível atual**, XP acumulado e progresso para o próximo nível.
+- Registro de **hidratação**: usuário informa quantos ml de água bebeu no dia.
+- Missões em destaque com seleção rápida.
+- Ações rápidas: Progresso, Missões, Conquistas e Configurações.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 🎯 Missões
+- Lista de missões diárias com status:
+  - **Disponível** → pode ser iniciada.
+  - **Ativa** → em andamento.
+  - **Concluída** → finalizada com recompensas.
+- Exemplos de missões:
+  - Beber 2L de água.
+  - Dormir 8 horas.
+  - Caminhar 30 minutos.
+- Cada missão concede XP e recompensas específicas.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 📊 Progresso
+- Exibe **quantidade de missões concluídas** e meta para próximo nível.
+- Barra de progresso visual com porcentagem.
+- Dicas para evoluir mais rápido (missões diárias, eventos, interação com outros usuários).
 
-## Get a fresh project
+### 👤 Perfil
+- Avatar com efeito glow.
+- Nome e username do usuário.
+- Estatísticas: missões concluídas, seguidores e seguindo.
+- Categoria do herói (Novato, Intermediário, Lendário) com medalha correspondente.
+- Informações pessoais: email e localização.
+- Botões para editar perfil, acessar configurações e sair da conta.
 
-When you're ready, run:
+### ⚙️ Configurações
+- Alternar **notificações** (on/off).
+- Alternar **modo escuro**.
+- Acesso rápido para editar perfil.
+- Botão de logout.
 
-```bash
-npm run reset-project
+### 🖼️ Modal
+- Exemplo de modal com navegação de retorno para a tela inicial.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+- **React Native** com Expo.
+- **Expo Router** para navegação.
+- **React Hooks** (`useState`, `useRouter`).
+- **@react-native-picker/picker** para seleção de categoria.
+- **FontAwesome** para ícones nas abas.
+- Estrutura de **Tabs**: Início, Missões, Progresso, Perfil.
+
+---
+
+## 📂 Estrutura de Pastas
+
+```text
+VidaHeroicaApp/
+├─ components/
+│  └─ SplashScreen.tsx
+├─ assets/images/
+│  ├─ boneco.png
+│  ├─ coraacao.png
+│  ├─ raio.png
+│  ├─ nuvem.png
+│  ├─ bronze.webp
+│  ├─ prata.png
+│  └─ ouro.png
+├─ pages/
+│  ├─ login.tsx
+│  ├─ missions.tsx
+│  ├─ progress.tsx
+│  ├─ profile.tsx
+│  ├─ editar/
+│  │  └─ index.tsx
+│  ├─ config/
+│  │  └─ index.tsx
+│  └─ tabs/
+│     └─ _layout.tsx
+
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## ▶️ Como Executar
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-repositorio/duohealth.git
+---
+Instale as dependências 
+npm install
+---
+Execute o projeto
+npx expo start
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Objetivo
+Promover hábitos saudáveis de forma divertida e interativa, transformando o bem-estar em uma jornada épica de RPG.
